@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+  "header header nav nav nav"
+  "section section section section section"
+  "footer footer footer footer footer"
+}
+/*Global*/
+
+
+/*Header*/
+#header{
+  grid-area: header;
+}
+
+/*Nav*/
+#nav{
+  grid-area: nav;
+}
+
+/*Section*/
+#section{
+  grid-area: section;
+}
+
+/*Footer*/
+#footer{
+  grid-area: footer;
+}
